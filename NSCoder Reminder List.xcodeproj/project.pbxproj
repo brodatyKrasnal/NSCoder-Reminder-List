@@ -13,6 +13,7 @@
 		823E69AB24FED73A002E6961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823E69A924FED73A002E6961 /* Main.storyboard */; };
 		823E69AD24FED73C002E6961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823E69AC24FED73C002E6961 /* Assets.xcassets */; };
 		823E69B024FED73C002E6961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823E69AE24FED73C002E6961 /* LaunchScreen.storyboard */; };
+		823E69BB24FEDB14002E6961 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823E69BA24FEDB14002E6961 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		823E69AC24FED73C002E6961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823E69AF24FED73C002E6961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		823E69B124FED73C002E6961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823E69BA24FEDB14002E6961 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		823E69A224FED73A002E6961 /* NSCoder Reminder List */ = {
 			isa = PBXGroup;
 			children = (
-				823E69A324FED73A002E6961 /* AppDelegate.swift */,
-				823E69A524FED73A002E6961 /* SceneDelegate.swift */,
-				823E69A724FED73A002E6961 /* ViewController.swift */,
-				823E69A924FED73A002E6961 /* Main.storyboard */,
-				823E69AC24FED73C002E6961 /* Assets.xcassets */,
+				823E69BC24FEDB74002E6961 /* Model */,
+				823E69B724FEDAC4002E6961 /* Control */,
+				823E69B924FEDAED002E6961 /* View */,
+				823E69B824FEDADE002E6961 /* Supporting files */,
 				823E69AE24FED73C002E6961 /* LaunchScreen.storyboard */,
 				823E69B124FED73C002E6961 /* Info.plist */,
+				823E69A324FED73A002E6961 /* AppDelegate.swift */,
+				823E69A524FED73A002E6961 /* SceneDelegate.swift */,
 			);
 			path = "NSCoder Reminder List";
+			sourceTree = "<group>";
+		};
+		823E69B724FEDAC4002E6961 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				823E69A724FED73A002E6961 /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		823E69B824FEDADE002E6961 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				823E69AC24FED73C002E6961 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		823E69B924FEDAED002E6961 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				823E69A924FED73A002E6961 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		823E69BC24FEDB74002E6961 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				823E69BA24FEDB14002E6961 /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +176,7 @@
 				823E69A824FED73A002E6961 /* ViewController.swift in Sources */,
 				823E69A424FED73A002E6961 /* AppDelegate.swift in Sources */,
 				823E69A624FED73A002E6961 /* SceneDelegate.swift in Sources */,
+				823E69BB24FEDB14002E6961 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
